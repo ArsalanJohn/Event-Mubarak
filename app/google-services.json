@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "329644126293",
+    "firebase_url": "https://event-mubarak.firebaseio.com",
+    "project_id": "event-mubarak",
+    "storage_bucket": "event-mubarak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329644126293:android:f51375dfd0351342",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329644126293-uejuqurddu5scnc4dhdg50v6esu0ica3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPnhSDYSx5tJPFj26p3XmwqTdVqwBKD_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329644126293-uejuqurddu5scnc4dhdg50v6esu0ica3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

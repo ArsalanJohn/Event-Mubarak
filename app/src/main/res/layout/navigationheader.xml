@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/headerimg"
+        android:src="@drawable/eventmubarak"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Mubarak"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:id="@+id/headertext"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        />
+
+</FrameLayout>
+</RelativeLayout>

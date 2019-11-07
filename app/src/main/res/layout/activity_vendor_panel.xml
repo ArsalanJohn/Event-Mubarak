@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VendorPanelActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/vendorpanelimg"
+        android:src="@drawable/place"
+        android:scaleType="centerCrop"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/vendorpanelname"
+    android:text="Company Name"
+    android:textSize="25sp"
+    android:fontFamily="sans-serif-condensed-light"
+    android:padding="10dp"
+    />
+      <android.support.v7.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/vendorpaneloptions"
+          android:layout_margin="10dp"
+          ></android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

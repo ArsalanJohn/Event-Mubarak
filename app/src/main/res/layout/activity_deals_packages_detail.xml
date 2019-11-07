@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DealsPackagesDetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/transport"
+        android:id="@+id/pkgdetailimg"
+        android:scaleType="centerCrop"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Dealbookbtn"
+            android:text="Book"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffff"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Package Name"
+    android:fontFamily="sans-serif-condensed-light"
+    android:padding="10dp"
+    android:textSize="20sp"
+    android:id="@+id/pkgdetailname"
+
+    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Package Price"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:id="@+id/pkgdetailprice"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:id="@+id/company_name_detail"
+
+            />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Address"
+        android:fontFamily="sans-serif-condensed-light"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:id="@+id/cmpny_add_detail"
+
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Booked By"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Booked By"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:id="@+id/pkgdetailbookedBy"
+            />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:id="@+id/pkgdetaildescription"
+            />
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

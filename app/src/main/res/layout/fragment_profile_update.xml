@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.ProfileUpdate">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+
+                >
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    app:cardMaxElevation="5dp"
+    app:cardElevation="5dp"
+    android:layout_margin="10dp"
+
+    >
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/cus_update_dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="left"
+
+                    />
+
+
+</android.support.v7.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+
+                    >
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:layout_weight="0.1"
+                        android:layout_gravity="center"
+
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Name"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/cus_name_update_d"
+                        android:textSize="15sp"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+
+                    >
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:layout_weight="0.1"
+                        android:layout_gravity="center"
+
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Address"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:id="@+id/cus_address_update_d"
+                        android:textSize="15sp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+
+                    >
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="CNIC"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:layout_weight="0.1"
+                        android:layout_gravity="center"
+
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="CNIC"
+                        android:id="@+id/cus_update_cnic_num"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif-condensed-light"
+android:inputType="number"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+
+                    >
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:layout_weight="0.1"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:layout_gravity="center"
+
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="03xx-xxxxxxx"
+                        android:id="@+id/cus_update_num"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif-condensed-light"
+android:inputType="number"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+
+                    >
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="City"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:layout_weight="0.1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Lahore"
+                        android:id="@+id/cus_update_city"
+                        android:textSize="15sp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:layout_marginLeft="5dp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+
+                    >
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Old Password"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:layout_weight="0.1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Old Password"
+                        android:id="@+id/cus_old_password"
+                        android:textSize="15sp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:inputType="textPassword"
+                        android:layout_marginLeft="5dp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+
+                    >
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="New Password"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:layout_weight="0.1"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="New Password"
+                        android:id="@+id/cus_new_password"
+                        android:textSize="15sp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-condensed-light"
+
+                        android:inputType="textPassword"
+                        android:layout_marginLeft="5dp"
+                        />
+                </LinearLayout>
+
+
+
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/update_cus_btn"
+                    android:text="Update"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDark"
+                    android:textSize="12dp"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="sans-serif-condensed-light"
+
+                    />
+
+
+
+            </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

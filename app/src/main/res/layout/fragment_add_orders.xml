@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Fragments.AddOrders">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/selectDate"
+           android:text="Select Date..."
+           android:layout_margin="10dp"
+           android:textSize="30sp"
+           android:fontFamily="sans-serif-condensed-light"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/Date"
+           android:text=""
+           android:layout_margin="10dp"
+           android:textSize="30sp"
+           android:fontFamily="sans-serif-condensed-light"
+           />
+       <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/selectTime"
+       android:text="Select Time From..."
+       android:layout_margin="10dp"
+       android:textSize="30sp"
+       android:fontFamily="sans-serif-condensed-light"
+       />
+       <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/Time"
+       android:text=""
+       android:layout_margin="10dp"
+       android:textSize="30sp"
+       android:fontFamily="sans-serif-condensed-light"
+       />
+
+
+
+
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/chkAvail"
+           android:text="Check Availbility"
+           android:background="@drawable/button_bg"
+           android:layout_margin="10dp"
+           android:layout_gravity="right"
+           android:textColor="#ffffff"
+           android:padding="10dp"
+           />
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/BookAvail"
+           android:text="Book"
+           android:background="@drawable/button_bg"
+           android:layout_margin="10dp"
+           android:layout_gravity="right"
+           android:textColor="#ffffff"
+           android:padding="10dp"
+           android:visibility="gone"
+           />
+
+
+
+   </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

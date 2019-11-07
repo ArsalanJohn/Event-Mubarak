@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FYP</string>
+    <string name="DrawerOpen">open</string>
+    <string name="DrawerClose">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummyDetail">Your skills of writing Paragraph will make you a perfect man.
+        If you look at any printed prose book, you will see that each chapter is divided up
+        into sections, the first line of each being indented slightly to the right.
+        These sections are called Paragraph. </string>
+    <string name="DummyIntro">Your skills of writing Paragraph will make you a perfect man.
+        If you look at any printed prose book, you will see that each chapter is divided up
+        into sections, the first line of each being indented slightly to the right.
+        These sections are called Paragraph.
+    Your skills of writing Paragraph will make you a perfect man.
+        If you look at any printed prose book, you will see that each chapter is divided up
+        into sections, the first line of each being indented slightly to the right.
+        These sections are called Paragraph.</string>
+    <string-array name="packages">
+
+        <item>Packages</item>
+        <item>Deals</item>
+    </string-array>
+
+
+</resources>

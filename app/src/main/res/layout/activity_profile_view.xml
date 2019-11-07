@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileViewActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/PImageView"
+        android:src="@drawable/avatar"
+        android:scaleType="centerCrop"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/PImageView"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="#000000"
+            android:layout_weight="0.7"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:id="@+id/Pname"
+            android:layout_weight="0.3"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textColor="#000000"
+                android:layout_weight="0.7"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:id="@+id/Pemail"
+                android:layout_weight="0.3"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CNIC:"
+                android:textColor="#000000"
+                android:layout_weight="0.7"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:id="@+id/Pcnic"
+                android:layout_weight="0.3"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Phone:"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:id="@+id/Pphone"
+                android:layout_weight="0.3"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textColor="#000000"
+                android:layout_weight="0.7"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:id="@+id/Paddress"
+                android:layout_weight="0.3"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textColor="#000000"
+                android:layout_weight="0.7"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City:"
+                android:id="@+id/Pcity"
+                android:layout_weight="0.3"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:cardMaxElevation="5dp"
+        app:cardElevation="5dp"
+        android:elevation="5dp"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardMaxElevation="5dp"
+                app:cardElevation="5dp"
+                android:elevation="5dp"
+                >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:id="@+id/home_deal_img"
+                    android:src="@drawable/transport"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deal"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:fontFamily="sans-serif-condensed-light"
+
+                    android:paddingBottom="5dp"
+                    android:paddingRight="5dp"
+
+                    android:layout_marginTop="30dp"
+                    />
+
+            </FrameLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_deal_name"
+                android:text="Ramzan Offer"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/home_company_name"
+                    android:text="Moon Banquet"
+                    android:textSize="15sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#000000"
+                    android:paddingBottom="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:fontFamily="sans-serif-condensed-light"
+                    />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="20dp"
+                    android:background="#000000"
+                    android:layout_margin="5dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/home_company_address"
+                    android:text="Nishat Colony"
+                    android:textSize="15sp"
+                    android:paddingTop="5dp"
+                    android:textColor="#000000"
+                    android:paddingBottom="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed-light"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_deal_details"
+                android:text="details..."
+                android:textSize="15sp"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/link"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:paddingBottom="10dp"
+                android:fontFamily="sans-serif-condensed-light"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>

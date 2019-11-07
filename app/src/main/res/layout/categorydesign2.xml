@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardMaxElevation="5dp"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/home_category_img"
+            android:src="@drawable/transport"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:fontFamily="sans-serif-condensed-light"
+
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+
+            android:layout_marginTop="30dp"
+            />
+
+    </FrameLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/home_category_text"
+    android:text="Transport"
+    android:textSize="15sp"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:textColor="#000000"
+    android:paddingBottom="10dp"
+    android:fontFamily="sans-serif-condensed-light"
+
+    />
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
